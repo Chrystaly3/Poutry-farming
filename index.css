@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Open Sans",sans-serif;
+	color: #1A374D;
+	padding-bottom: 50px;
+
+}
+.container{
+max-width: 1200px;
+margin: 0 auto;
+}
+.nav{
+
+
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 transition: all 0.3 ease-in-out;
+}
+.nav .container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+	transition: all 0.3 ease-in-out;
+}
+.nav ul{
+	display: flex;
+	list-style: none;
+	align-items: center;
+	justify-content: center;
+}
+.nav a{
+	font-size: 1.5rem;
+	color: #FF8E00;
+	text-decoration: none;
+	padding: 7px 15px;
+	transition: all 0.3 ease-in-out;
+}
+.nav.active{
+	background-color: #fff;
+	box-shadow: 0 2px 10px #1A374D;
+
+}
+.nav .active a{
+	color: #000;
+}
+.nav .active .container{
+	padding: 10px 0;
+}
+.nav a.current, .nav a:hover{
+	color:#c0392b;
+	font-weight: bold;
+}
+.cut{
+	display: flex;
+	
+	
+}
+.navb h1{
+	font-size: 1.5rem;
+margin-left: .8rem;
+font-style: italic;
+font-family: 'Island Moments', cursive;
+
+
+}
+.btn{
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	border-radius: 6px;
+}
+.btn:hover{
+		color:#fff ;
+		background-color: #FF8E00;
+}
+.navb{
+	margin-bottom: 2rem;
+	
+}
+.pmain h6{
+	color: #c0392b;
+	margin: 0;
+	top: 0;
+	text-transform: uppercase;
+}
+.pmain h1{
+	max-width: 600px;
+}
+
+
+.navb p{
+	font-size: 1rem;
+	margin-left: .8rem;
+	font-family: 'Island Moments', cursive;
+
+}
+
+.bg1{
+	background-image: url("assets/assets/istockphoto-1217649450-170667a.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	height: 100vh;
+
+}
+.pmain1 h6{
+	color: #c0392b;
+}
+.pmain1 h1{
+	font-size: 1.5rem;
+	max-width: 500px;
+	margin-left: 20rem;
+
+}
+.pmain1 em{
+	color: #c0392b;
+}
+.hero{
+	
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	margin-bottom: 60px;
+	z-index: -2;
+
+
+
+}
+.hero p{
+	max-width: 600px;
+	letter-spacing: .1rem;
+}
+.hero h1{
+	text-transform: capitalize;
+	font-size: 2rem;
+	font-weight: bold;
+	letter-spacing: .1rem;
+}
+.content h2, .content h3 {
+	font-size: 2rem;
+	text-transform: capitalize;
+	
+}
+.content p{
+	max-height: 800px;
+	line-height: 1.5rem;
+	letter-spacing: .1rem;
+}
+
+footer{
+	padding: 20px 23px;
+	color: #000;
+	text-align: center;
+	font-family: Regular, Semibold and Bold;
+}
+.row{
+	display: flex;
+
+
+	
+}
+.card{
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	text-align: center;
+	box-shadow: 5px 8px gray;
+	border-radius: 6px;
+}
+.box-1{
+	margin-left: 10rem;
+
+	
+}
